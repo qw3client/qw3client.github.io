@@ -1,0 +1,560 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Arthur">
+        <meta name="description" content="Duckhunt is a discord game bot where you have to shot ducks to win">
+        <meta name="keywords" content="Discord, bot, help, game, text, duckhunt">
+        <meta name="generator" content="Hugo 0.44" />
+
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-16x16.png" sizes="16x16">
+
+        <link rel="stylesheet" href="https://duckhunt.me/dist/theme.css">
+
+        
+
+        
+            
+                <link rel="stylesheet" href="https://duckhunt.me/css/custom.css">
+            
+        
+
+        
+        <title>
+            
+                Duckhunt - Un Bot Discord | Préférences du bot
+            
+        </title>
+    </head>
+    <body class="bilberry-hugo-theme">
+        
+<nav class="permanentTopNav">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="/fr/page/faq/faq/">FAQ</a></li>
+                
+            
+                
+                    <li><a href="/fr/page/install-the-bot/installer-duckhunt/">Installer Duckhunt</a></li>
+                
+            
+                
+                    <li><a href="/fr/page/command-list/liste-commandes/">Liste des commandes</a></li>
+                
+            
+                
+                    <li><a href="/fr/page/bot-settings/preferences/">Préférences du bot</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+        <header>
+    <div class="container">
+        <div class="logo">
+            <a href="/fr" class="logo">
+                
+                    <img src="/img/profile.png" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a href="/fr">Duckhunt - Un Bot Discord</a></h3>
+            
+                <span class="subtitle">Site web officiel de DuckHunt, le bot discord</span>
+            
+        </div>
+
+    <div class="languages">
+                
+                    
+                        <a href="/en">en</a>
+                    
+                
+                    
+                        <a href="/fr" class="active">fr</a>
+                    
+                
+                    
+                        <a href="/ru">ru</a>
+                    
+                
+                    
+                        <a href="/da">da</a>
+                    
+                
+            </div>
+        
+
+        
+        <div class="toggler permanentTopNav">
+        
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+
+        <div class="main container">
+            
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="/fr/page/bot-settings/preferences/">
+    <i class="fa fa-fw fa-file"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h3><a href="/fr/page/bot-settings/preferences/">Préférences du bot</a></h3>
+    <div class="meta">
+        <span class="date moment">0001-01-01</span>
+
+        
+
+        
+    </div>
+
+    
+        <p>Pour définir un paramètre, utilisez <code>dh!settings set &lt;paramètre&gt; &lt;valeur&gt;</code></p>
+
+<p>Vous pouvez voir les paramètres ayant étés modifiés avec la commande <code>dh!settings modified</code></p>
+
+<p>Note : Un booléen est un type de variable pouvant être défini par &ldquo;vrai&rdquo; ou &ldquo;faux&rdquo;. Les valeurs &ldquo;oui&rdquo; et &ldquo;non&rdquo; peuvent aussi être utilisées.</p>
+
+<div class="table-scroll">
+  <table>
+<thead>
+<tr>
+<th>Paramètre</th>
+<th>Type</th>
+<th>Valeur par défaut</th>
+<th>Commentaire</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>announce_level_up</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Activer ou pas les messages de montée de niveau.</td>
+</tr>
+
+<tr>
+<td>bang_lag</td>
+<td>décimal</td>
+<td>0.5</td>
+<td>Temps en seconde entre le tir et ce qu&rsquo;il se passe après. Peut être mis à 0 pour être désactivé.</td>
+</tr>
+
+<tr>
+<td>chance_to_kill_on_missed</td>
+<td>entier</td>
+<td>5</td>
+<td>Probabilité en pourcentage qu&rsquo;un chasseur tue quelqu&rsquo;un lors d&rsquo;un tir raté.</td>
+</tr>
+
+<tr>
+<td>clover_max_exp</td>
+<td>entier</td>
+<td>10</td>
+<td>Expérience bonus maximale donnée par un trèfle</td>
+</tr>
+
+<tr>
+<td>clover_min_exp</td>
+<td>entier</td>
+<td>1</td>
+<td>Expérience bonus minimale donnée par un trèfle</td>
+</tr>
+
+<tr>
+<td>delete_commands</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Paramètre anti-spam : supprimer les messages contenant les commandes</td>
+</tr>
+
+<tr>
+<td>disable_decoys_when_ducks_are_sleeping</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Empêche l&rsquo;utilisation de leurres quand les canards dorment. (Voir les paramètres sleeping_ducks_start et sleeping_ducks_stop)</td>
+</tr>
+
+<tr>
+<td>duck_frighten_chance</td>
+<td>entier</td>
+<td>5</td>
+<td>Probabilité qu&rsquo;un canard s&rsquo;enfuit lors d&rsquo;un tir, en pourcentage.</td>
+</tr>
+
+<tr>
+<td>ducks_per_day</td>
+<td>entier</td>
+<td>48</td>
+<td>Nombre de canards par jour dans un salon textuel.</td>
+</tr>
+
+<tr>
+<td>emoji_ducks</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Utilise un emoji quand le canard apparaît à la place d&rsquo;un texte.</td>
+</tr>
+
+<tr>
+<td>emoji_used</td>
+<td>texte</td>
+<td>:duck:</td>
+<td>Emoji utilisé si le paramètre emoji_ducks est activé.</td>
+</tr>
+
+<tr>
+<td>exp_won_per_duck_killed</td>
+<td>entier</td>
+<td>10</td>
+<td>Points d’expérience gagnés lorsque un chasseur a tué un canard.</td>
+</tr>
+
+<tr>
+<td>killed_mentions</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Mentionner ou pas les personnes se faisant tirer dessus par un chasseur.</td>
+</tr>
+
+<tr>
+<td>language</td>
+<td>texte</td>
+<td>en_EN</td>
+<td>Langage utilisé, sous le format international de pays (par exemple, fr_FR pour le français de France). Si aucun langage correspondant est trouvé, il sera par défaut en anglais.</td>
+</tr>
+
+<tr>
+<td>mention_in_topscores</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Mentionner les chasseurs dans le tableau de score (Cela ne notifiera personne).</td>
+</tr>
+
+<tr>
+<td>multiplier_miss_chance</td>
+<td>décimal</td>
+<td>1</td>
+<td>Changer la probabilité pour un chasseur de rater son tir. Plus la valeur est évevée, plus la probabilité de rater est haute.</td>
+</tr>
+
+<tr>
+<td>pm_most_messages</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Envoyer les informations non de commandes importantes en message privé (reload, shop&hellip;).</td>
+</tr>
+
+<tr>
+<td>pm_stats</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Envoyer les statistiques (!duckstats) par message privé.</td>
+</tr>
+
+<tr>
+<td>pm_top</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Envoyer le tableau de scores (!top) par message privé.</td>
+</tr>
+
+<tr>
+<td>prefix</td>
+<td>texte</td>
+<td>!</td>
+<td>Préfixe utilisé. Si un autre bot utilise le même préfixe que DuckHunt, vous pouvez le changer. Peu importe le paramètre, le bot répondra tout le temps au préfixe &ldquo;dh!&rdquo;</td>
+</tr>
+
+<tr>
+<td>randomize_ducks</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Changer aléatoirement les canard envoyés par textes (Pour le paramètre emoji_ducks = non)</td>
+</tr>
+
+<tr>
+<td>randomize_mechanical_ducks</td>
+<td>entier</td>
+<td>0</td>
+<td>Paramètre à trois niveaux. À 0, un canard mécanique ressemblera et aura un cri pré défini. Si défini à 1, le cri du canard mécanique sera comme un canard normal. À 2, le canard mécanique sera exactement comme un canard normal.</td>
+</tr>
+
+<tr>
+<td>show_super_ducks_life</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Affiche la vie des super canards lorsqu&rsquo;ils ne sont pas tués</td>
+</tr>
+
+<tr>
+<td>sleeping_ducks_start</td>
+<td>entier</td>
+<td>0</td>
+<td>À utiliser avec &ldquo;sleeping_ducks_stop&rdquo;, pour définir une intervalle avec le système horaire militaire (format 24) où les canard dormiront, et donc n’apparaîtront pas. Le paramètre &ldquo;ducks_per_day&rdquo; sera toujours pris en compte. Important : L&rsquo;heure utilisé par le bot est en UTC+0. Tapez la commande dh!time pour voir l&rsquo;heure actuelle pour le bot.</td>
+</tr>
+
+<tr>
+<td>sleeping_ducks_stop</td>
+<td>entier</td>
+<td>0</td>
+<td>Voir le paramètre &ldquo;sleeping_ducks_start&rdquo;.</td>
+</tr>
+
+<tr>
+<td>super_ducks_chance</td>
+<td>entier</td>
+<td>5</td>
+<td>Probabilité qu&rsquo;un nouveau canard soit un super canard.</td>
+</tr>
+
+<tr>
+<td>super_ducks_exp_multiplier</td>
+<td>décimal</td>
+<td>1.1</td>
+<td>L&rsquo;experience gagnée quand un super canard est tué se calcule par la formule &ldquo;arrondi(exp_won_per_duck_killed * super_ducks_exp_multiplier * vie_du_supercanard)&rdquo; Voir aussi le paramètre &ldquo;exp_won_per_duck_killed&rdquo; : expérience gagnée lorsque un chasseur tue un canard.</td>
+</tr>
+
+<tr>
+<td>super_ducks_maxlife</td>
+<td>entier</td>
+<td>7</td>
+<td>Vie maximale d&rsquo;un super canard.</td>
+</tr>
+
+<tr>
+<td>super_ducks_minlife</td>
+<td>entier</td>
+<td>3</td>
+<td>Vie minimale d&rsquo;un super canard.</td>
+</tr>
+
+<tr>
+<td>tax_on_user_give</td>
+<td>entier</td>
+<td>5</td>
+<td>Pourcentage de points d’expérience supprimé lorsque un joueur en envoi avec la commande &ldquo;dh!send_exp&rdquo;. Mettre à 0 pour désactiver la taxe.</td>
+</tr>
+
+<tr>
+<td>time_before_ducks_leave</td>
+<td>entier</td>
+<td>660</td>
+<td>Temps avant qu&rsquo;un canard parte s&rsquo;il n&rsquo;est pas tué.</td>
+</tr>
+
+<tr>
+<td>tts_ducks</td>
+<td>booléen</td>
+<td>Non</td>
+<td>Essaye de parler avec la commande /tts quand un canard apparaît. Paramètre expérimental.</td>
+</tr>
+
+<tr>
+<td>user_can_give_exp</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Défini si la commande &ldquo;dh!send_exp&rdquo;, qui permet d&rsquo;envoyer des points d&rsquo;expérience, est autorisée.</td>
+</tr>
+
+<tr>
+<td>users_can_find_objects</td>
+<td>booléen</td>
+<td>Oui</td>
+<td>Défini si des objets peuvent être trouvés aléatoirement dans un buisson quand un chasseur tue un canard</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+    
+</div>
+
+
+    
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://duckhunt.me/en/page/bot-settings/">en</a>
+            
+                <a href="https://duckhunt.me/ru/page/bot-settings/bot-settings/">ru</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+
+     
+
+        </div>
+
+        <footer>
+    <div class="container">
+        <div class="recent-posts">
+            <strong>Articles récents</strong>
+                <ul>
+                
+                    <li>
+                        <a href="/fr/article/duckhunt-v3-changelog/">Changements dans DuckhuntV3</a>
+                    </li>
+                
+                </ul>
+        </div>
+
+        <div class="categories">
+            <strong>Catégories</strong>
+
+            
+                <ul>
+                
+                    <li>
+                        <a href="/fr/categories/changelog">Changelog (1)</a>
+                    </li>
+                
+                </ul>
+            
+        </div>
+
+        <div class="right">
+            
+            <div class="social-media">
+                <strong>Médias sociaux</strong>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    <a href="https://github.com/duckhunt-discord" target="_blank"><i class="fa fa-github"></i></a>
+                
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Autres langues</strong>
+                    
+                        
+                            <a href="/en">en</a>
+                        
+                    
+                        
+                            <a href="/fr" class="active">fr</a>
+                        
+                    
+                        
+                            <a href="/ru">ru</a>
+                        
+                    
+                        
+                            <a href="/da">da</a>
+                        
+                    
+                </div>
+            
+        </div>
+    </div>
+</footer>
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/paris-ci" target="_blank">
+                &copy;
+                
+                    2021
+                
+                DuckHunt
+            </a>
+        </div>
+        <div class="author">
+            <a href="https://github.com/duckhunt-discord/duckhunt.me_source" target="_blank">Website</a>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+</script>
+
+        
+
+        <script src="https://duckhunt.me/dist/theme.js" type="application/javascript"></script>
+
+        
+            
+        
+
+        <script>
+            $(document).ready(function() {
+                $(".moment").each(function() {
+                    $(this).text(
+                        moment( $(this).text() )
+                            .locale( "fr" )
+                            .format('LL')
+                    );
+                });
+
+                $(".footnote-return sup").html("[revenir]")
+            })
+        </script>
+
+        
+
+
+    </body>
+</html>

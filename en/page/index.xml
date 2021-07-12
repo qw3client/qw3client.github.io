@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Duckhunt - A Discord Bot</title>
+    <link>https://duckhunt.me/en/page/</link>
+    <description>Recent content in Pages on Duckhunt - A Discord Bot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://duckhunt.me/en/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bot Settings</title>
+      <link>https://duckhunt.me/en/page/bot-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/en/page/bot-settings/</guid>
+      <description>To set a setting, use dh!settings set &amp;lt;parameter&amp;gt; &amp;lt;value&amp;gt;
+You can view modified settings by using dh!settings modified
+For resetting a setting to its default value, use dh!settings reset &amp;lt;parameter&amp;gt;
+   Parameter Type Default value Comment     announce_level_up bool True Toggle the level up/down announcements   bang_lag float 0.5 Time in seconds between a hunter&amp;rsquo;s shot and what happens. This can be disabled by setting it to 0.</description>
+    </item>
+    
+    <item>
+      <title>Command list</title>
+      <link>https://duckhunt.me/en/page/command-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/en/page/command-list/</guid>
+      <description>All commands are written with the universal dh! prefix.
+Alternatively, you can use the prefix set on your server too, (the default is !) which can be changed by server owners.
+Arguments to the commands listed below are specified with &amp;lt;&amp;gt; if they must be specified, and with [] otherwise. Please don’t type the brackets on commands, thanks :)
+You can pass a player as an argument using his/her User ID, a mention, their nickname, or their username and Discord tag.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://duckhunt.me/en/page/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/en/page/faq/</guid>
+      <description>How do I play? Playing DuckHunt is easy. When a duck (a message sent by the bot looking like 🦆 &amp;lt; COUAAC) appears in the channel, use the dh!bang command to kill it. You can reload your weapon with dh!reload when you have no more bullets in your current clip.
+You can also access the shop using dh!shop [name of the item you want] to buy objects you&amp;rsquo;ll need in your hunting career.</description>
+    </item>
+    
+    <item>
+      <title>Install Duckhunt</title>
+      <link>https://duckhunt.me/en/page/install-the-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/en/page/install-the-bot/</guid>
+      <description>First, I’d like to thank HostMyServers for providing me a server to host DuckHunt on. It is fast, reliable and well-supported!
+Adding the official bot to your server is super easy ! Follow the instructions:
+ Join our discord server to get support if needed. You can ask a @Moderator to get the @Server Owner role, reserved for admins of DuckHunt on their servers! Invite the bot to your server by clicking here In the channel you want to use, type !</description>
+    </item>
+    
+    <item>
+      <title>Shop Items</title>
+      <link>https://duckhunt.me/en/page/shop-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/en/page/shop-items/</guid>
+      <description>You can buy objects with the command dh!shop [item number] [possible arguments, such as the @target nickname] You need to have enough exp to buy an item.
+   Shop ID Item name Description Exp cost     1 Extra bullet One bullet is added directly into the gun chamber. 7   2 Extra clip One clip is added to your stock. 13   3 AP ammo (antiblindage) Damage x2 for 24h.</description>
+    </item>
+    
+  </channel>
+</rss>

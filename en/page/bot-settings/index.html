@@ -1,0 +1,555 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Arthur">
+        <meta name="description" content="Duckhunt is a discord game bot where you have to shot ducks to win">
+        <meta name="keywords" content="Discord, bot, help, game, text, duckhunt">
+        <meta name="generator" content="Hugo 0.44" />
+
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-16x16.png" sizes="16x16">
+
+        <link rel="stylesheet" href="https://duckhunt.me/dist/theme.css">
+
+        
+
+        
+            
+                <link rel="stylesheet" href="https://duckhunt.me/css/custom.css">
+            
+        
+
+        
+        <title>
+            
+                Duckhunt - A Discord Bot | Bot Settings
+            
+        </title>
+    </head>
+    <body class="bilberry-hugo-theme">
+        
+<nav class="permanentTopNav">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="/en/page/bot-settings/">Bot Settings</a></li>
+                
+            
+                
+                    <li><a href="/en/page/command-list/">Command list</a></li>
+                
+            
+                
+                    <li><a href="/en/page/faq/">FAQ</a></li>
+                
+            
+                
+                    <li><a href="/en/page/install-the-bot/">Install Duckhunt</a></li>
+                
+            
+                
+                    <li><a href="/en/page/shop-items/">Shop Items</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+        <header>
+    <div class="container">
+        <div class="logo">
+            <a href="/en" class="logo">
+                
+                    <img src="/img/profile.png" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a href="/en">Duckhunt - A Discord Bot</a></h3>
+            
+                <span class="subtitle">Official website of the DuckHunt Discord bot</span>
+            
+        </div>
+
+    <div class="languages">
+                
+                    
+                        <a href="/en" class="active">en</a>
+                    
+                
+                    
+                        <a href="/fr">fr</a>
+                    
+                
+                    
+                        <a href="/ru">ru</a>
+                    
+                
+                    
+                        <a href="/da">da</a>
+                    
+                
+            </div>
+        
+
+        
+        <div class="toggler permanentTopNav">
+        
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+
+        <div class="main container">
+            
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="/en/page/bot-settings/">
+    <i class="fa fa-fw fa-file"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h3><a href="/en/page/bot-settings/">Bot Settings</a></h3>
+    <div class="meta">
+        <span class="date moment">0001-01-01</span>
+
+        
+
+        
+    </div>
+
+    
+        <p>To set a setting, use <code>dh!settings set &lt;parameter&gt; &lt;value&gt;</code><br />
+You can view modified settings by using <code>dh!settings modified</code><br />
+For resetting a setting to its default value, use <code>dh!settings reset &lt;parameter&gt;</code></p>
+
+<div class="table-scroll">
+  <table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Default value</th>
+<th>Comment</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>announce_level_up</td>
+<td>bool</td>
+<td>True</td>
+<td>Toggle the level up/down announcements</td>
+</tr>
+
+<tr>
+<td>bang_lag</td>
+<td>float</td>
+<td>0.5</td>
+<td>Time in seconds between a hunter&rsquo;s shot and what happens. This can be disabled by setting it to 0.</td>
+</tr>
+
+<tr>
+<td>chance_to_kill_on_missed</td>
+<td>integer</td>
+<td>5</td>
+<td>Probability in percent that a hunter will kill someone when missing a shot</td>
+</tr>
+
+<tr>
+<td>clover_max_exp</td>
+<td>integer</td>
+<td>10</td>
+<td>Maximum experience bonus given by a clover</td>
+</tr>
+
+<tr>
+<td>clover_min_exp</td>
+<td>integer</td>
+<td>1</td>
+<td>Minimum experience bonus given by a clover</td>
+</tr>
+
+<tr>
+<td>delete_commands</td>
+<td>bool</td>
+<td>False</td>
+<td>Anti-flood parameter: delete commands from hunters after execution</td>
+</tr>
+
+<tr>
+<td>disable_decoys_when_ducks_are_sleeping</td>
+<td>bool</td>
+<td>True</td>
+<td>Make decoys ineffective when ducks are sleeping (see sleeping_ducks_start and sleeping_ducks_stop)</td>
+</tr>
+
+<tr>
+<td>duck_frighten_chance</td>
+<td>integer</td>
+<td>5</td>
+<td>Probability in percent that a duck will get afraid and fly off when a hunter shoots at him.</td>
+</tr>
+
+<tr>
+<td>ducks_per_day</td>
+<td>integer</td>
+<td>48</td>
+<td>Number of ducks that will spawn on a channel each day</td>
+</tr>
+
+<tr>
+<td>emoji_used</td>
+<td>string</td>
+<td>:duck:</td>
+<td>Emoji used by the bot if the emoji_ducks setting is enabled</td>
+</tr>
+
+<tr>
+<td>exp_won_per_duck_killed</td>
+<td>integer</td>
+<td>10</td>
+<td>Experience points earned by a hunter per killed duck</td>
+</tr>
+
+<tr>
+<td>killed_mentions</td>
+<td>bool</td>
+<td>True</td>
+<td>Toggle mentioning people that get shot by other hunters. It can be annoying, so you can disable it here.</td>
+</tr>
+
+<tr>
+<td>language</td>
+<td>string</td>
+<td>en_EN</td>
+<td>Language used by the bot. Use the format 2letterslanguagecode_2LETTERSCOUNTRYCODE (fr_FR, hu_HU, en_US&hellip;). If the language is not found, this will default to English.</td>
+</tr>
+
+<tr>
+<td>mention_in_topscores</td>
+<td>bool</td>
+<td>False</td>
+<td>Mention hunters in the topscores (this does NOT send notifications). It can break the scoreboard with long names.</td>
+</tr>
+
+<tr>
+<td>multiplier_miss_chance</td>
+<td>float</td>
+<td>1</td>
+<td>Change the chance to miss on shooting. A lower value will make hunter miss less, a higher value will make hunter miss more.</td>
+</tr>
+
+<tr>
+<td>pm_most_messages</td>
+<td>bool</td>
+<td>False</td>
+<td>Send non-essential answers by PM to a hunter (reload, shop&hellip;)</td>
+</tr>
+
+<tr>
+<td>prefix</td>
+<td>string</td>
+<td>!</td>
+<td>Prefix used by the bot. If DuckHunt commands conflict with another bot, you can change it here. Regardless of this setting, DuckHunt will always react to the prefix dh!</td>
+</tr>
+
+<tr>
+<td>randomize_mechanical_ducks</td>
+<td>integer</td>
+<td>0</td>
+<td>3-level parameter. If it&rsquo;s set at 0, a mechanical duck will have a set look. If set to 1, his shout will get randomized. At 2, the mechanical duck will be indistinguishable from a normal one.</td>
+</tr>
+
+<tr>
+<td>show_super_ducks_life</td>
+<td>bool</td>
+<td>False</td>
+<td>Show super ducks life when they aren&rsquo;t killed</td>
+</tr>
+
+<tr>
+<td>sleeping_ducks_start</td>
+<td>integer</td>
+<td>0</td>
+<td>Used with sleeping_ducks_stop to define an interval using military time hours (24h format) where the ducks won&rsquo;t spawn. The ducks_per_day setting will STILL be respected. You must only enter hours in UTC. Example : dh!settings set sleeping_ducks_start 22</td>
+</tr>
+
+<tr>
+<td>sleeping_ducks_stop</td>
+<td>integer</td>
+<td>0</td>
+<td>See sleeping_ducks_start. Example : dh!settings set sleeping_ducks_stop 10</td>
+</tr>
+
+<tr>
+<td>ducks_chance</td>
+<td>integer</td>
+<td>100</td>
+<td>Probability that a duck that spawns will be a normal duck (this is a weighted probability system)</td>
+</tr>
+
+<tr>
+<td>super_ducks_chance</td>
+<td>integer</td>
+<td>5</td>
+<td>Probability that a duck that spawns will be a super duck</td>
+</tr>
+
+<tr>
+<td>baby_ducks_chance</td>
+<td>integer</td>
+<td>2</td>
+<td>Probability that a duck that spawns will be a baby duck</td>
+</tr>
+
+<tr>
+<td>mother_of_all_ducks_chance</td>
+<td>integer</td>
+<td>1</td>
+<td>Probability that a duck that spawns will be a mother of all ducks</td>
+</tr>
+
+<tr>
+<td>super_ducks_exp_multiplier</td>
+<td>float</td>
+<td>1.1</td>
+<td>To get experience earned when a hunter kill a superduck, we use the formula rounded_integer(exp_won_per_duck_killed * super_ducks_exp_multiplier * duck_life)</td>
+</tr>
+
+<tr>
+<td>super_ducks_maxlife</td>
+<td>integer</td>
+<td>7</td>
+<td>Maximum life of a super duck</td>
+</tr>
+
+<tr>
+<td>super_ducks_minlife</td>
+<td>integer</td>
+<td>3</td>
+<td>Minimum life of a super duck</td>
+</tr>
+
+<tr>
+<td>tax_on_user_give</td>
+<td>integer</td>
+<td>5</td>
+<td>Percentage of exp that will be taken as a tax when a player uses the send_exp command. This can be disabled by setting it to 0.</td>
+</tr>
+
+<tr>
+<td>time_before_ducks_leave</td>
+<td>integer</td>
+<td>660</td>
+<td>Time in seconds before a duck leaves of boredom if he isn&rsquo;t killed.</td>
+</tr>
+
+<tr>
+<td>tts_ducks</td>
+<td>bool</td>
+<td>False</td>
+<td>Try to speak when ducks appear. Experimental setting.</td>
+</tr>
+
+<tr>
+<td>user_can_give_exp</td>
+<td>bool</td>
+<td>True</td>
+<td>Allow users to send each other experience points with the send_exp command.</td>
+</tr>
+
+<tr>
+<td>users_can_find_objects</td>
+<td>bool</td>
+<td>True</td>
+<td>Allow users to find objects in bushes. Some objects are trash, some objects will benefit the hunter.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+    
+</div>
+
+
+    
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://duckhunt.me/fr/page/bot-settings/preferences/">fr</a>
+            
+                <a href="https://duckhunt.me/ru/page/bot-settings/bot-settings/">ru</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+
+     
+
+        </div>
+
+        <footer>
+    <div class="container">
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+                <ul>
+                
+                    <li>
+                        <a href="/en/article/duckhunt-v3-changelog/">Duckhunt V3 changelog</a>
+                    </li>
+                
+                </ul>
+        </div>
+
+        <div class="categories">
+            <strong>Categories</strong>
+
+            
+                <ul>
+                
+                    <li>
+                        <a href="/en/categories/changelog">Changelog (1)</a>
+                    </li>
+                
+                </ul>
+            
+        </div>
+
+        <div class="right">
+            
+            <div class="social-media">
+                <strong>Social media</strong>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    <a href="https://github.com/duckhunt-discord" target="_blank"><i class="fa fa-github"></i></a>
+                
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Other languages</strong>
+                    
+                        
+                            <a href="/en" class="active">en</a>
+                        
+                    
+                        
+                            <a href="/fr">fr</a>
+                        
+                    
+                        
+                            <a href="/ru">ru</a>
+                        
+                    
+                        
+                            <a href="/da">da</a>
+                        
+                    
+                </div>
+            
+        </div>
+    </div>
+</footer>
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/paris-ci" target="_blank">
+                &copy;
+                
+                    2021
+                
+                DuckHunt
+            </a>
+        </div>
+        <div class="author">
+            <a href="https://github.com/duckhunt-discord/duckhunt.me_source" target="_blank">Website</a>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+</script>
+
+        
+
+        <script src="https://duckhunt.me/dist/theme.js" type="application/javascript"></script>
+
+        
+            
+        
+
+        <script>
+            $(document).ready(function() {
+                $(".moment").each(function() {
+                    $(this).text(
+                        moment( $(this).text() )
+                            .locale( "en" )
+                            .format('LL')
+                    );
+                });
+
+                $(".footnote-return sup").html("[return]")
+            })
+        </script>
+
+        
+
+
+    </body>
+</html>

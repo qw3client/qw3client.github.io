@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Duckhunt - Un Bot Discord</title>
+    <link>https://duckhunt.me/fr/page/</link>
+    <description>Recent content in Pages on Duckhunt - Un Bot Discord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://duckhunt.me/fr/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://duckhunt.me/fr/page/faq/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/fr/page/faq/faq/</guid>
+      <description>Comment jouer ? Il est facile de jouer à DuckHunt. Quand un canard apparaît sur le salon (un message envoyé par le bot qui ressemble à 🦆 &amp;lt; COUAAC), utilisez la commande dh!bang pour le tuer. Vous pouvez recharger votre arme avec dh!reload quand vous n&amp;rsquo;avez plus de balles.
+Vous pouvez aussi accéder au magasin en utilisant dh!shop [nom de l&#39;objet que vous voulez] pour acheter les objets dont vous aurez besoin pour votre carrière de chasseur.</description>
+    </item>
+    
+    <item>
+      <title>Installer Duckhunt</title>
+      <link>https://duckhunt.me/fr/page/install-the-bot/installer-duckhunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/fr/page/install-the-bot/installer-duckhunt/</guid>
+      <description>Premièrement, merci à HostMyServers pour fournir un serveur permettant d&amp;rsquo;héberger DuckHunt. Le service est rapide, fiable.
+Ajouter le bot officiel sur votre serveur est très facile ! Suivez les instructions suivantes :
+ Rejoignez notre serveur Discord si vous avez besoin d&amp;rsquo;aide. Vous pouvez aussi demander à un Modérateur (@Moderator) pour avoir le rôle &amp;ldquo;Administrateur d&amp;rsquo;un serveur&amp;rdquo; (@Server Admin), réservé aux administrateurs de serveurs avec DuckHunt. Invitez le bot sur votre serveur en utilisant le lien suivant : ici.</description>
+    </item>
+    
+    <item>
+      <title>Liste des commandes</title>
+      <link>https://duckhunt.me/fr/page/command-list/liste-commandes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/fr/page/command-list/liste-commandes/</guid>
+      <description>Toutes les commandes sont écrites ici avec le préfixe dh!. Vous pouvez aussi utiliser le préfixe réglé sur votre serveur, par défaut !, qui peut etre changé par vos administrateurs de serveur.
+Les arguments des commandes sont spécifiés entre &amp;lt;&amp;gt; si ils sont obligatoires, et entre [] si ils sont facultatifs. C&amp;rsquo;est juste une indication, il ne faut évidemment pas taper les crochets :)
+Un joueur peut etre spécifié avec son ID, une mention, leur pseudo, ou son nom d&amp;rsquo;utilisateur et leur #TAG discord.</description>
+    </item>
+    
+    <item>
+      <title>Préférences du bot</title>
+      <link>https://duckhunt.me/fr/page/bot-settings/preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/fr/page/bot-settings/preferences/</guid>
+      <description>Pour définir un paramètre, utilisez dh!settings set &amp;lt;paramètre&amp;gt; &amp;lt;valeur&amp;gt;
+Vous pouvez voir les paramètres ayant étés modifiés avec la commande dh!settings modified
+Note : Un booléen est un type de variable pouvant être défini par &amp;ldquo;vrai&amp;rdquo; ou &amp;ldquo;faux&amp;rdquo;. Les valeurs &amp;ldquo;oui&amp;rdquo; et &amp;ldquo;non&amp;rdquo; peuvent aussi être utilisées.
+   Paramètre Type Valeur par défaut Commentaire     announce_level_up booléen Oui Activer ou pas les messages de montée de niveau.</description>
+    </item>
+    
+  </channel>
+</rss>

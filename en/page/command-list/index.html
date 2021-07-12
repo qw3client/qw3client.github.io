@@ -1,0 +1,491 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Arthur">
+        <meta name="description" content="Duckhunt is a discord game bot where you have to shot ducks to win">
+        <meta name="keywords" content="Discord, bot, help, game, text, duckhunt">
+        <meta name="generator" content="Hugo 0.44" />
+
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://duckhunt.me/favicon-16x16.png" sizes="16x16">
+
+        <link rel="stylesheet" href="https://duckhunt.me/dist/theme.css">
+
+        
+
+        
+            
+                <link rel="stylesheet" href="https://duckhunt.me/css/custom.css">
+            
+        
+
+        
+        <title>
+            
+                Duckhunt - A Discord Bot | Command list
+            
+        </title>
+    </head>
+    <body class="bilberry-hugo-theme">
+        
+<nav class="permanentTopNav">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="/en/page/bot-settings/">Bot Settings</a></li>
+                
+            
+                
+                    <li><a href="/en/page/command-list/">Command list</a></li>
+                
+            
+                
+                    <li><a href="/en/page/faq/">FAQ</a></li>
+                
+            
+                
+                    <li><a href="/en/page/install-the-bot/">Install Duckhunt</a></li>
+                
+            
+                
+                    <li><a href="/en/page/shop-items/">Shop Items</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+        <header>
+    <div class="container">
+        <div class="logo">
+            <a href="/en" class="logo">
+                
+                    <img src="/img/profile.png" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a href="/en">Duckhunt - A Discord Bot</a></h3>
+            
+                <span class="subtitle">Official website of the DuckHunt Discord bot</span>
+            
+        </div>
+
+    <div class="languages">
+                
+                    
+                        <a href="/en" class="active">en</a>
+                    
+                
+                    
+                        <a href="/fr">fr</a>
+                    
+                
+                    
+                        <a href="/ru">ru</a>
+                    
+                
+                    
+                        <a href="/da">da</a>
+                    
+                
+            </div>
+        
+
+        
+        <div class="toggler permanentTopNav">
+        
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+
+        <div class="main container">
+            
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="/en/page/command-list/">
+    <i class="fa fa-fw fa-file"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h3><a href="/en/page/command-list/">Command list</a></h3>
+    <div class="meta">
+        <span class="date moment">0001-01-01</span>
+
+        
+
+        
+    </div>
+
+    
+        
+
+<p>All commands are written with the universal <code>dh!</code> prefix.</p>
+
+<p>Alternatively, you can use the prefix set on your server too, (the default is <code>!</code>) which can be changed by server owners.</p>
+
+<p>Arguments to the commands listed below are specified with <code>&lt;&gt;</code> if they must be specified, and with <code>[]</code> otherwise.
+Please don’t type the brackets on commands, thanks :)</p>
+
+<p>You can pass a player as an argument using his/her User ID, a mention, their nickname, or their username and Discord tag.</p>
+
+<p>Below, you&rsquo;ll find an overview of general commands for playing DuckHunt (Player Commands)
+as well as commands for setting up and managing the DuckHunt bot on your server (Administrator Commands).</p>
+
+<p>For further info about specific commands, see the list of <a href="https://duckhunt.me/shop-items/">shop items</a> or the <a href="https://duckhunt.me/bot-settings/">bot settings</a>.</p>
+
+<h2 id="player-commands">Player commands</h2>
+
+<div class="table-scroll">
+  <table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>dh!bang</td>
+<td>Command used to shoot a duck. Don&rsquo;t forget that sometimes, mistakes happen and you can miss the ducks&hellip; Or worse.</td>
+</tr>
+
+<tr>
+<td>dh!reload</td>
+<td>Reloads or unjams your weapon. You must have chargers left if you want to reload. They are given back for free everyday (check dh!freetime command), but you can also buy them in the shop.</td>
+</tr>
+
+<tr>
+<td>dh!help</td>
+<td>Sends you the help message.</td>
+</tr>
+
+<tr>
+<td>dh!wiki</td>
+<td>Sends the link to this website.</td>
+</tr>
+
+<tr>
+<td>dh!stats [player]</td>
+<td>Gets your or another player hunting statistics.</td>
+</tr>
+
+<tr>
+<td>dh!shop <item number> [argument]</td>
+<td>Command used to buy things from the shop. For more information, see the Shop Items page. You can also use the dh!shop list command to show the link to the shop items page.</td>
+</tr>
+
+<tr>
+<td>dh!top &ndash;sort-by [time/missed/exp/killed]</td>
+<td>See the best players on the channel. You can choose a criteria to sort by if needed.</td>
+</tr>
+
+<tr>
+<td>dh!send_exp <player> <amount></td>
+<td>Sends some of your experience points to another player on the game. A tax can be applied to the transfer, dependings on the server settings.</td>
+</tr>
+
+<tr>
+<td>dh!freetime</td>
+<td>This command willl display the time left to wait for the free giveback of chargers and weapons.</td>
+</tr>
+
+<tr>
+<td>dh!settings list</td>
+<td>Lists every possible setting that can be modified.</td>
+</tr>
+
+<tr>
+<td>dh!settings modified</td>
+<td>See settings that were modified and their new value.</td>
+</tr>
+
+<tr>
+<td>dh!ping</td>
+<td>Pings the bot to see if it is online.</td>
+</tr>
+
+<tr>
+<td>dh!uptime</td>
+<td>Shows the bot&rsquo;s uptime.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+<h2 id="administrator-commands">Administrator commands</h2>
+
+<p><div class="table-scroll">
+  <table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>dh!setup</td>
+<td>This is the first command you should use after inviting DuckHunt to a server. It create the server settings and have a configuration wizard to make it easier for you.</td>
+</tr>
+
+<tr>
+<td>dh!add_channel</td>
+<td>After using dh!setup, use this command on the channels you want ducks to appear in.</td>
+</tr>
+
+<tr>
+<td>dh!del_channel</td>
+<td>This disables a channel added by dh!add_channel.</td>
+</tr>
+
+<tr>
+<td>dh!del_user</td>
+<td>This removes an user from the database.</td>
+</tr>
+
+<tr>
+<td>dh!del_user_id</td>
+<td>This removes an user from the database. This comment is meant to be used on players that left the server.</td>
+</tr>
+
+<tr>
+<td>dh!add_admin</td>
+<td>Set another server administrator as an admin. Note that users with the Administrator permission in discord are considered Administrators too.</td>
+</tr>
+
+<tr>
+<td>dh!del_admin</td>
+<td>Deletes a server admin from the admins list.</td>
+</tr>
+
+<tr>
+<td>dh!coin [&ndash;super-duck] [&ndash;life <life-points>]</td>
+<td>Forces a duck to spawn.</td>
+</tr>
+
+<tr>
+<td>dh!ducks</td>
+<td>Shows the number of ducks that will spawn today, and the list of ducks that are on the channel. It can be considered as a cheat.</td>
+</tr>
+
+<tr>
+<td>dh!give_exp <player> <amount></td>
+<td>Gives a player some exp points. This is a cheat, not to be confused with dh!send_exp.</td>
+</tr>
+
+<tr>
+<td>dh!settings set <parameter> <value></td>
+<td>Modify server settings. You can go to the Bot Settings page to learn more about this command.</td>
+</tr>
+
+<tr>
+<td>dh!settings reset <parameter></td>
+<td>Resets a parameter to the default value. Use this command and not dh!settings set to reset parameters, as it won&rsquo;t cause issues with bot upgrades.</td>
+</tr>
+
+<tr>
+<td>dh!game_ban <player></td>
+<td>Bans a player from the game. You can&rsquo;t ban admins, so please don&rsquo;t try :)</td>
+</tr>
+
+<tr>
+<td>dh!game_unban <player></td>
+<td>Unbans a player from the game. They will be able to play again.</td>
+</tr>
+
+<tr>
+<td>dh!remove_all_scores_and_stats_on_this_channel</td>
+<td>Deletes a channel scores and stats. Please be sure you really want to do this. You cannot undo this.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</p>
+
+    
+</div>
+
+
+    
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://duckhunt.me/fr/page/command-list/liste-commandes/">fr</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+
+     
+
+        </div>
+
+        <footer>
+    <div class="container">
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+                <ul>
+                
+                    <li>
+                        <a href="/en/article/duckhunt-v3-changelog/">Duckhunt V3 changelog</a>
+                    </li>
+                
+                </ul>
+        </div>
+
+        <div class="categories">
+            <strong>Categories</strong>
+
+            
+                <ul>
+                
+                    <li>
+                        <a href="/en/categories/changelog">Changelog (1)</a>
+                    </li>
+                
+                </ul>
+            
+        </div>
+
+        <div class="right">
+            
+            <div class="social-media">
+                <strong>Social media</strong>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    <a href="https://github.com/duckhunt-discord" target="_blank"><i class="fa fa-github"></i></a>
+                
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Other languages</strong>
+                    
+                        
+                            <a href="/en" class="active">en</a>
+                        
+                    
+                        
+                            <a href="/fr">fr</a>
+                        
+                    
+                        
+                            <a href="/ru">ru</a>
+                        
+                    
+                        
+                            <a href="/da">da</a>
+                        
+                    
+                </div>
+            
+        </div>
+    </div>
+</footer>
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/paris-ci" target="_blank">
+                &copy;
+                
+                    2021
+                
+                DuckHunt
+            </a>
+        </div>
+        <div class="author">
+            <a href="https://github.com/duckhunt-discord/duckhunt.me_source" target="_blank">Website</a>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+</script>
+
+        
+
+        <script src="https://duckhunt.me/dist/theme.js" type="application/javascript"></script>
+
+        
+            
+        
+
+        <script>
+            $(document).ready(function() {
+                $(".moment").each(function() {
+                    $(this).text(
+                        moment( $(this).text() )
+                            .locale( "en" )
+                            .format('LL')
+                    );
+                });
+
+                $(".footnote-return sup").html("[return]")
+            })
+        </script>
+
+        
+
+
+    </body>
+</html>
