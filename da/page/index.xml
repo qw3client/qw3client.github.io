@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Duckhunt - En Discord Bot</title>
+    <link>https://duckhunt.me/da/page/</link>
+    <description>Recent content in Pages on Duckhunt - En Discord Bot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://duckhunt.me/da/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Butiksartikler</title>
+      <link>https://duckhunt.me/da/page/shop-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/da/page/shop-items/</guid>
+      <description>Du kan købe genstande med kommandoen dh!shop [ting nummer] [mulige parametre, såsom @mål kaldenavn] Du skal have nok exp til at købe en vare.
+   Shop ID Tingens navn Beskrivelse Exp-pris     1 Ekstra kugle En kugle tilføjes direkte ind i våbenkammeret. 7   2 Ekstra magasin Et magasin er tilføjet til din beholdning. 13   3 PB ammo Skade x2 i 24t. Hjælper med at dræbe super-ænder.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://duckhunt.me/da/page/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/da/page/faq/</guid>
+      <description>Hvordan spiller jeg?? Det er nemt at spille DuckHunt. Når en and (en besked sendt af botten, som ser sådan ud 🦆 &amp;lt; COUAAC) dukker op på kanalen, brug dh!bang kommandoen for at dræbe den. Du kan lade dit gevær med dh!reload når du ikke har flere kugler i dit nuværende magasin.
+Du kan også få adgang til butikken ved hjælp af dh!shop [navnet på den ting du ville have] til at købe ting du ville få brug for i din jagtkarriere.</description>
+    </item>
+    
+    <item>
+      <title>Installer Duckhunt</title>
+      <link>https://duckhunt.me/da/page/install-the-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duckhunt.me/da/page/install-the-bot/</guid>
+      <description>For det første, ville jeg gerne takke HostMyServers for at give mig en server til at hoste DuckHunt på. Den er hurtig, pålidelig og godt støttet!
+Tilføjelse af den officielle bot til din server er super let ! Følg instruktionerne:
+ Deltag i vores discord server at få støtte, hvis det er nødvendigt. Du kan spørge en @Moderator for at få @Server Owner rollen, forbeholdt admins af DuckHunt på deres servere!</description>
+    </item>
+    
+  </channel>
+</rss>
